@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 2021_04_16_015934) do
   create_table "animes", force: :cascade do |t|
     t.string "title"
     t.string "genre"
-    t.integer "release"
-    t.integer "episodes"
+    t.string "release"
+    t.string "episodes"
     t.integer "likes", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

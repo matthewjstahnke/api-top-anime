@@ -48,3 +48,637 @@ Processing by AnimesController#index as HTML
 Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 1.0ms | Allocations: 6629)
 
 
+Started GET "/animes" for ::1 at 2021-04-16 00:38:34 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 22.4ms | ActiveRecord: 0.8ms | Allocations: 8739)
+
+
+Started GET "/animes" for ::1 at 2021-04-16 00:38:37 -0500
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (11.9ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 2.5ms | ActiveRecord: 11.9ms | Allocations: 1287)
+
+
+Started GET "/animes" for ::1 at 2021-04-16 21:11:45 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (1.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 12.1ms | ActiveRecord: 2.1ms | Allocations: 8740)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-04-16 21:11:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/animes" for ::1 at 2021-04-18 21:56:38 -0500
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (0.9ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 10.5ms | ActiveRecord: 1.7ms | Allocations: 8745)
+
+
+Started GET "/favicon.ico" for ::1 at 2021-04-18 21:56:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/animes" for ::1 at 2021-04-18 22:49:26 -0500
+Processing by AnimesController#index as */*
+  [1m[35m (44.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+  [1m[36mAnime Load (0.6ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 1990ms (Views: 1600.3ms | ActiveRecord: 98.8ms | Allocations: 1878)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 22:52:00 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.2ms | Allocations: 1291)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 22:53:40 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (1.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 1.2ms | Allocations: 1291)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 22:53:42 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.5ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 103ms (Views: 101.3ms | ActiveRecord: 0.5ms | Allocations: 1273)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:00:41 -0500
+Processing by AnimesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+  [1m[36mAnime Load (5.9ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 244ms (Views: 243.4ms | ActiveRecord: 6.4ms | Allocations: 1874)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:03:16 -0500
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (2.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 111ms (Views: 30.7ms | ActiveRecord: 2.3ms | Allocations: 1269)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:03:34 -0500
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 67ms (Views: 58.4ms | ActiveRecord: 0.2ms | Allocations: 1269)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:03:44 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 1274)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:04:39 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms | Allocations: 1273)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:18:12 -0500
+Processing by AnimesController#index as */*
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.8ms | Allocations: 1855)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:19:36 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 48ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:22:05 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 113)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:23:31 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 4ms (Allocations: 366)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:24:07 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 11ms (ActiveRecord: 0.0ms | Allocations: 3359)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAnimes (20210416015934)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (85.7ms)[0m  [1m[35mDROP TABLE "animes"[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20210416015934"]]
+  [1m[36mTRANSACTION (49.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAnimes (20210416015934)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "animes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "genre" varchar, "release" varchar, "episodes" varchar, "likes" integer DEFAULT 0, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210416015934"]]
+  [1m[36mTRANSACTION (52.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/animes" for ::1 at 2021-04-18 23:26:04 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 1.2ms | ActiveRecord: 0.2ms | Allocations: 3124)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:26:18 -0500
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 602)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnime Create (0.3ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Cowboy Bebop"], ["genre", "Sci-Fi"], ["release", "1998"], ["episodes", "26"], ["likes", 6], ["created_at", "2021-04-19 04:26:35.005863"], ["updated_at", "2021-04-19 04:26:35.005863"]]
+  [1m[36mTRANSACTION (12.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnime Create (0.3ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Dragon Ball"], ["genre", "Action"], ["release", "1986"], ["episodes", "153"], ["likes", 5], ["created_at", "2021-04-19 04:26:35.026518"], ["updated_at", "2021-04-19 04:26:35.026518"]]
+  [1m[36mTRANSACTION (15.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnime Create (0.4ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Naruto"], ["genre", "Action"], ["release", "2002"], ["episodes", "220"], ["likes", 4], ["created_at", "2021-04-19 04:26:35.045817"], ["updated_at", "2021-04-19 04:26:35.045817"]]
+  [1m[36mTRANSACTION (13.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnime Create (0.4ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Nichijou"], ["genre", "Slice of Life"], ["release", "2011"], ["episodes", "26"], ["likes", 3], ["created_at", "2021-04-19 04:26:35.064171"], ["updated_at", "2021-04-19 04:26:35.064171"]]
+  [1m[36mTRANSACTION (17.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnime Create (0.4ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Attack on Titan"], ["genre", "Action"], ["release", "2013"], ["episodes", "80"], ["created_at", "2021-04-19 04:26:35.085156"], ["updated_at", "2021-04-19 04:26:35.085156"]]
+  [1m[36mTRANSACTION (6.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/animes" for 127.0.0.1 at 2021-04-18 23:26:42 -0500
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (0.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 25.9ms | ActiveRecord: 2.7ms | Allocations: 8812)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:26:48 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.9ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.9ms | Allocations: 1362)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:27:03 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 124)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started GET "/animes" for ::1 at 2021-04-18 23:28:48 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.2ms | Allocations: 1342)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:29:05 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:30:33 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 22ms (ActiveRecord: 0.0ms | Allocations: 3361)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:49:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:39:11 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 2ms (Allocations: 367)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:39:39 -0500
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms | Allocations: 3359)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:18:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:40:35 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 139850ms (ActiveRecord: 0.0ms | Allocations: 22457)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:43:36 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 21ms (ActiveRecord: 0.0ms | Allocations: 3361)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-18 23:45:23 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.5ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 1.6ms | Allocations: 6426)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:45:33 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-18 23:45:54 -0500
+Processing by AnimesController#index as HTML
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 4.8ms | ActiveRecord: 0.1ms | Allocations: 1339)
+
+
+Started GET "/animes" for ::1 at 2021-04-18 23:48:21 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.4ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 1343)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:48:49 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 23ms (ActiveRecord: 0.0ms | Allocations: 3361)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-18 23:49:23 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.4ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 2.7ms | Allocations: 6426)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:49:38 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-18 23:50:22 -0500
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 17.1ms | ActiveRecord: 2.4ms | Allocations: 8818)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:50:31 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 57015ms (ActiveRecord: 0.0ms | Allocations: 14839)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-18 23:51:39 -0500
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.5ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 25ms (Views: 14.2ms | ActiveRecord: 1.1ms | Allocations: 8813)
+
+
+Started POST "/animes" for ::1 at 2021-04-18 23:51:48 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms | Allocations: 124)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:52:36 -0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 12ms (ActiveRecord: 0.0ms | Allocations: 3359)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started POST "/animes" for ::1 at 2021-04-18 23:55:37 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-19 00:21:10 -0500
+Processing by AnimesController#index as */*
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+  [1m[36mAnime Load (0.5ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 3.3ms | Allocations: 7073)
+
+
+Started POST "/animes" for ::1 at 2021-04-19 00:23:10 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 113)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-19 00:26:03 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (8.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 8.3ms | Allocations: 1358)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:26:03 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (24.0ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 46ms (Views: 19.9ms | ActiveRecord: 24.0ms | Allocations: 1348)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:26:04 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 1343)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:26:06 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1343)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:26:17 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.5ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 0.5ms | Allocations: 1361)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:26:20 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (1.3ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 163ms (Views: 161.7ms | ActiveRecord: 1.3ms | Allocations: 1343)
+
+
+Started POST "/animes" for ::1 at 2021-04-19 00:26:37 -0500
+Processing by AnimesController#create as */*
+Completed 400 Bad Request in 23ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: anime):
+  
+app/controllers/animes_controller.rb:51:in `anime_params'
+app/controllers/animes_controller.rb:19:in `create'
+Started GET "/animes" for ::1 at 2021-04-19 00:27:43 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.1ms | Allocations: 1342)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:27:47 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 99ms (Views: 97.8ms | ActiveRecord: 0.2ms | Allocations: 1343)
+
+
+Started POST "/animes" for ::1 at 2021-04-19 00:28:00 -0500
+Processing by AnimesController#create as JSON
+  Parameters: {"anime"=>{"title"=>"Pokemon", "genre"=>"Adventure", "release"=>"1998", "episodes"=>"100"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/animes_controller.rb:22:in `create'
+  [1m[36mAnime Create (40.6ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Pokemon"], ["genre", "Adventure"], ["release", "1998"], ["episodes", "100"], ["created_at", "2021-04-19 05:28:00.449223"], ["updated_at", "2021-04-19 05:28:00.449223"]]
+  ↳ app/controllers/animes_controller.rb:22:in `create'
+  [1m[36mTRANSACTION (9.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/animes_controller.rb:22:in `create'
+Completed 201 Created in 150ms (Views: 1.4ms | ActiveRecord: 49.8ms | Allocations: 4105)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:28:29 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 1494)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:28:37 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 1494)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:28:41 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.1ms | Allocations: 1494)
+
+
+Started POST "/animes" for ::1 at 2021-04-19 00:30:37 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnimesController#create as JSON
+  Parameters: {"anime"=>{"title"=>"Digimon", "genre"=>"Adventure", "release"=>"1998", "episodes"=>"52"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/animes_controller.rb:22:in `create'
+  [1m[36mAnime Create (0.4ms)[0m  [1m[32mINSERT INTO "animes" ("title", "genre", "release", "episodes", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Digimon"], ["genre", "Adventure"], ["release", "1998"], ["episodes", "52"], ["created_at", "2021-04-19 05:30:37.592853"], ["updated_at", "2021-04-19 05:30:37.592853"]]
+  ↳ app/controllers/animes_controller.rb:22:in `create'
+  [1m[36mTRANSACTION (8.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/animes_controller.rb:22:in `create'
+Completed 201 Created in 48ms (Views: 0.9ms | ActiveRecord: 10.1ms | Allocations: 12136)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:40:50 -0500
+Processing by AnimesController#index as */*
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.6ms | Allocations: 2277)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:41:09 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1663)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:41:29 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1663)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:42:29 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 1663)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:43:05 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 1645)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:43:26 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.2ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 1645)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:43:48 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.1ms | Allocations: 1645)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:44:01 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.1ms | Allocations: 1645)
+
+
+Started GET "/animes" for ::1 at 2021-04-19 00:44:16 -0500
+Processing by AnimesController#index as */*
+  [1m[36mAnime Load (0.1ms)[0m  [1m[34mSELECT "animes".* FROM "animes"[0m
+  ↳ app/controllers/animes_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.1ms | Allocations: 1645)
+
+

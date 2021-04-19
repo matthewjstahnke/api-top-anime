@@ -15,7 +15,9 @@ class AnimesController < ApplicationController
 
   # POST /animes
   def create
+    #binding.pry
     @anime = Anime.new(anime_params)
+
 
     if @anime.save
       render json: @anime, status: :created, location: @anime
